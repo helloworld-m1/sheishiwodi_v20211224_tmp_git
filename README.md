@@ -4,8 +4,11 @@ telegram 上的谁是卧底游戏机器人。根据此源代码，你可以稍�
 
 # 配置需要
 开发工具 idea
+
 语言 java-15
+
 数据库 mysql 8+
+
 #如何使用
 1、在数据库中运行 src/main/resources/create.sql 中命令（可修改）
 
@@ -19,13 +22,21 @@ telegram 上的谁是卧底游戏机器人。根据此源代码，你可以稍�
 
 # 自定义
 src/main/resources/strings.xml ：包含了所有文字信息、词语、国家语言文本 
+
   <language> 国家语言支持
+  
     <strings>国家语言文本 
+      
       <string>语言文本
+        
     <words>这个语言所支持的词语
+      
       <word>一对词语
+        
         </word1>词语1
+      
         </word2>词语2
+        
 
 # 授权
 通过此源代码衍生的产品或作品不该用于商业用途，除非有开发者的授权
