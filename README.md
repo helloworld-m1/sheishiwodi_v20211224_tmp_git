@@ -8,10 +8,15 @@ telegram 上的谁是卧底游戏机器人。根据此源代码，你可以稍�
 数据库 mysql 8+
 #如何使用
 1、在数据库中运行 src/main/resources/create.sql 中命令（可修改）
+
 2、运行构建工具 Plgins/mybatis-generator
+
 3、添加 src/main/resources/mapper/ 中2个文本文件中的内容分别至src/main/java/com/m/sql/mapper/中的4个文件（添加 函数 与 数据库语句节点）
+
 4、编辑 src/main/resources/db.properties （如果修改过src/main/resources/create.sql）
+
 5、编辑 src/main/resources/telegram.properties
+
 # 自定义
 src/main/resources/strings.xml ：包含了所有文字信息、词语、国家语言文本 
   <language> 国家语言支持
