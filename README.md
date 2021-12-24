@@ -12,7 +12,7 @@ telegram 上的谁是卧底游戏机器人。根据此源代码，你可以稍�
 3、添加 src/main/resources/mapper/ 中2个文本文件中的内容分别至src/main/java/com/m/sql/mapper/中的4个文件（添加 函数 与 数据库语句节点）
 4、编辑 src/main/resources/db.properties （如果修改过src/main/resources/create.sql）
 5、编辑 src/main/resources/telegram.properties
-#自定义
+# 自定义
 src/main/resources/strings.xml ：包含了所有文字信息、词语、国家语言文本 
   <language> 国家语言支持
     <strings>国家语言文本 
@@ -21,5 +21,6 @@ src/main/resources/strings.xml ：包含了所有文字信息、词语、国家�
       <word>一对词语
         </word1>词语1
         </word2>词语2
-#授权
+
+# 授权
 通过此源代码衍生的产品或作品不该用于商业用途，除非有开发者的授权
