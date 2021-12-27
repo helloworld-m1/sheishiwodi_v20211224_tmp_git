@@ -10,7 +10,7 @@ telegram 上的谁是卧底游戏机器人。根据此源代码，你可以稍�
 数据库 mysql 8+
 
 # 如何使用
-1、在数据库中运行 src/main/resources/create.sql 中命令（可修改）
+1、在数据库中运行 src/main/resources/create.sql 中命令（可修改密码）
 
 2、编辑 src/main/resources/db.properties （如果修改过src/main/resources/create.sql）
 
